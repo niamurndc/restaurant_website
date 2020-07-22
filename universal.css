@@ -1,0 +1,189 @@
+/* font customization */
+
+/* font -1 (Roboto) 
+.dark-background, .light-background, .section-head, .sub-head-1, .sub-head-2, .sub-head-1-up, .sub-head-2-up, .section-head-up, .details-1, .details-2, .details-3, .details-4, .but-lg, .but-mid, .but-sm, .menu, .menu-left, .menu-center{
+  font-family: 'Roboto' sans-serif;
+}
+
+/* font -2 (raleway) 
+.dark-background, .light-background, .section-head, .sub-head-1, .sub-head-2, .sub-head-1-up, .sub-head-2-up, .section-head-up, .details-1, .details-2, .details-3, .details-4, .but-lg, .but-mid, .but-sm, .menu, .menu-left, .menu-center{
+  font-family: 'Raleway' sans-serif;
+}
+
+/* Patrick Hand font */
+.section-head, .sub-head-1, .sub-head-2{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* Montserrat font */
+.sub-head-1-up, .sub-head-2-up, .section-head-up, .details-1, .details-2, .details-3, .details-4, .but-lg{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Background */
+.dark-background{
+  background: #222;
+  color: #fff;
+}
+
+.light-background{
+  background: #ccc;
+  color: #000;
+}
+
+/* section heading */
+.section-head{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sub-head-1{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.sub-head-2{
+  font-size: 20px;
+}
+
+/* seciton heading uppercase */
+.section-head-up{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.sub-head-1-up{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.sub-head-2-up{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.section-head{
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/* Details font */
+.details-1{
+  font-size: 20px;
+}
+
+.details-2{
+  font-size: 18px;
+}
+
+.details-3{
+  font-size: 16px;
+}
+
+.details-4{
+  font-size: 13px;
+}
+
+/* button */
+
+.but-lg{
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.but-mid{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 17px;
+}
+
+.but-sm{
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 14px;
+}
+
+/* menus */
+
+/* left - right menu */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-link{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+/* left - left menu */
+.menu-left{
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-link{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+/* center menu */
+.menu-center{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.menu-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-link{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  margin: 0 20px;
+}
+
+
